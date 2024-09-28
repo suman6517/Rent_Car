@@ -2,13 +2,13 @@ package oops.rent.car;
 
 public class Car
 {
-    private int carId;
+    private String carId;
     private String brand;
     private String model;
     private double basePrice;
     private boolean isAvalable;
 
-    public Car(int carId, String brand, String model, double basePrice )
+    public Car(String carId, String brand, String model, double basePrice )
     {
         this.carId = carId;
         this.brand = brand;
@@ -17,7 +17,7 @@ public class Car
         this.isAvalable = true;
     }
 
-    public int getCarId() {
+    public String getCarId() {
         return carId;
     }
 
